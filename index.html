@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="container">
+<!--######### RULES SECTION ###########-->
+	<div class="row">
+		<section class="rules">
+			<div class="header">
+				<h1>Crystal Collector</h1>
+			</div>
+			<div class="rules-body">
+				<h3>Rules:</h3><br />
+				<p>You will be given a random number at the start of the game</p><br>
+				<p>There are four crystalas below. By clicking on a crystal you will add a specific amount of points to your total score</p><br>
+				<p>You win the game by matching your total score to the given random number, you lose the game if your total score goes above the random number</p><br>
+				<p>The value of each crystal is hidden from you until you click on it.</p><br>
+				<p>Each time when the game starts, the game will change the values of each crystal.</p>
+				<!--<p>To win this game you must click the crystals!
+				You can't just click any crystal for certain win. Each crystal has a value in each new game that gets started. You will be able to click any crystal, but be sure to click the right crystal! The crystal values must add up to the given value value below. Keep track of your wins and lost to the right of the crystals.</p>-->
+			</div>
+		</section>
+<!-- ########## GAME SECTION ########### -->
+
+		<section class="game">
+			<div class="score">
+				<h3>Goal Score: </h3>
+			
+			<!-- Where the score will be input -->
+				<div class="score-goal">
+					<span id="random-score">
+					
+					</span>
+				</div>
+				<div class="win-ratio">
+					<p>Wins: <span id="dub"></span></p><br />
+					<p>Losses: <span id="loss"></span></p>
+				</div>
+			</div>
+			<!-- Gem Area -->
+			<div class="gem-area">
+				<img src="assets/images/blueGem.png">
+				<img src="assets/images/clearGem.png">
+				<img src="assets/images/orangeGem.png">
+				<img src="assets/images/purpGem.png">
+			</div>
+		</sectsion>
+	</div>
+</div>
+</body>
+</html>
